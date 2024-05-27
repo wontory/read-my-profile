@@ -3,7 +3,7 @@ import Content from "./content";
 import Frame, { frameOptions } from "./frame";
 
 export async function GET() {
-  return new ImageResponse(
+  const response = new ImageResponse(
     (
       <Frame>
         <Content />
@@ -11,4 +11,8 @@ export async function GET() {
     ),
     frameOptions
   );
+
+  response.headers.set("Cache-Control", "public, max-age=60, s-maxage=60");
+
+  return response;
 }
