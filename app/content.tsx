@@ -21,7 +21,7 @@ export default function Content() {
         <div tw="text-lg leading-relaxed text-slate-600">
           Innovative front-end developer skilled in React and Tailwind CSS,
           adept at building sleek and responsive user interfaces that captivate
-          users' attention and enhance usability.
+          users&apos; attention and enhance usability.
         </div>
       </div>
     </div>
