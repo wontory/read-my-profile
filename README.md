@@ -31,10 +31,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # README.md
 
 ![result](your_vercel_domains)
+<img src="your_vercel_domains" alt="result" />
 
 > In my case, https://read-my-profile.vercel.app/
 ```
 
 If you edit the code and deploy it, the image will be automatically updated.
 
-![result](https://read-my-profile.vercel.app/)
+<img src="https://read-my-profile.vercel.app" />
