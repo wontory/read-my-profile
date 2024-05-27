@@ -1,28 +1,27 @@
 export default function Content() {
   return (
-    <div tw="bg-gray-50 flex">
-      <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
-        <h2 tw="flex flex-col text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 text-left">
-          <span>Ready to dive in?</span>
-          <span tw="text-indigo-600">Start your free trial today.</span>
-        </h2>
-        <div tw="mt-8 flex md:mt-0">
-          <div tw="flex rounded-md shadow">
-            <a
-              href="#"
-              tw="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white"
-            >
-              Get started
-            </a>
+    <div tw="flex">
+      <div tw="items-end flex flex-col p-8 w-80">
+        <img src="https://github.com/wontory.png" width={200} height={200} />
+        <div tw="items-end flex flex-col mt-5">
+          <div tw="mt-2">Seoul, Korea</div>
+          <div tw="mt-2">+10 123 456 789</div>
+          <div tw="mt-2 font-medium text-black underline">
+            devwontory@gmail.com
           </div>
-          <div tw="ml-3 flex rounded-md shadow">
-            <a
-              href="#"
-              tw="flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600"
-            >
-              Learn more
-            </a>
+          <div tw="mt-2 font-medium text-black underline">
+            https://www.wontory.dev/
           </div>
+        </div>
+      </div>
+      <div tw="flex flex-col justify-between p-8 w-140">
+        <div tw="text-xl font-semibold">Frontend Developer</div>
+        <div tw="text-5xl font-bold leading-tight">Wontory</div>
+        <div tw="my-5 h-1 rounded bg-indigo-500"></div>
+        <div tw="text-lg leading-relaxed text-slate-600">
+          Innovative front-end developer skilled in React and Tailwind CSS,
+          adept at building sleek and responsive user interfaces that captivate
+          users' attention and enhance usability.
         </div>
       </div>
     </div>
